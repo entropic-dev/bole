@@ -35,8 +35,8 @@ function errorToOut (err, out) {
   out.err = {
     name: err.name,
     message: err.message,
-    code: err.code, // perhaps
-    stack: stackToString(err)
+    stack: stackToString(err),
+    ...err
   }
 }
 
