@@ -1,6 +1,6 @@
 {
   "name": "@entropic/bole",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "A tiny JSON logger",
   "main": "bole.js",
   "scripts": {
